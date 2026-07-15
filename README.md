@@ -4,7 +4,7 @@
 
 ### Versao atual: 1.6
 
-[![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
+[![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
 **Clique no botao acima e o download comeca. Nao precisa entender ou usar o GitHub.**
 
@@ -12,7 +12,7 @@
 
 ## Como instalar
 
-1. Clique em **BAIXAR SOOLORPG**.
+1. Clique em **BAIXAR SOLORPG**.
 2. Aguarde o arquivo `SoloRpg.rpk` terminar de baixar.
 3. Abra o arquivo baixado.
 4. Confirme a instalacao no Firecast.
