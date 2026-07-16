@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.6.11
+### Versao atual: 1.6.12
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,13 +24,13 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.6.11
+- **Versao:** 1.6.12
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
 
-## Novidades da 1.6.11
+## Novidades da 1.6.12
 
 - Sistema de SoloCoins dentro do Firecast e painel administrativo no HabilidadesWeb.
 - Gestao de contas, VIPs, transferencias, inventario, catalogo e auditoria de SoloCoins.
@@ -39,3 +39,5 @@ O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
 - Itens com bonus fixo e multiplicador por nivel do personagem.
 - Exclusao segura de titulos e produtos, preservando o historico de auditoria das compras.
 - Ajustes de seguranca, sincronizacao, interface e estabilidade geral.
+- Correcao do aviso de atualizacao que identificava a versao 1.6.11 como 1.6.1.
+- Correcao de equipamentos com multiplicador por nivel e itens remotos que nao apareciam para equipar.
