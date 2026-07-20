@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.6.13
+### Versao atual: 1.6.14
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,13 +24,13 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.6.13
+- **Versao:** 1.6.14
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
 
-## Novidades da 1.6.13
+## Novidades da 1.6.14
 
 - Controle de grupos, agenda recorrente, sessoes e historico pelo HabilidadesWeb.
 - Controle de fim de sessao com nivel, dinheiro, treino e pontos de pos-sessao.
