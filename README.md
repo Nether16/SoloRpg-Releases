@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.6.17
+### Versao atual: 1.6.18
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,20 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.6.17
+- **Versao:** 1.6.18
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Novidades da 1.6.18
+
+- Corrigidos os erros genericos de Bad Request nas operacoes SoloCoin.
+- Mensagens de PIN incorreto ou desatualizado agora aparecem claramente.
+- PINs copiados com espacos ou quebra de linha passam a ser normalizados.
+- Itens aplicados pelo SoloCoin agora entram na categoria correta do inventario.
+- Corrigido o erro ao salvar itens remotos com tipo desconhecido.
+- Atualizados o SoloRPG App, ControleBanco, catalogos e migrations do Supabase.
 
 ## Novidades da 1.6.17
 
