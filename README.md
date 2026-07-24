@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.6.19
+### Versao atual: 1.6.20
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,17 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.6.19
+- **Versao:** 1.6.20
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Novidades da 1.6.20
+
+- Adicionada confirmacao Sim/Nao antes de vender um item.
+- A confirmacao mostra o preco original e o valor recebido na venda.
+- Cancelar a venda mantem o item e o dinheiro sem alteracoes.
 
 ## Novidades da 1.6.19
 
