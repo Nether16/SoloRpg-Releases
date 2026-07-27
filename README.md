@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.6.22
+### Versao atual: 1.6.23
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,19 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.6.22
+- **Versao:** 1.6.23
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Novidades da 1.6.23
+
+- Requisicoes de skill e pos-sessao agora possuem telas separadas no ControleBanco.
+- Cada tela foi dividida nas abas Ativos e Em espera.
+- Adicionado o estado Em espera, com opcoes para aguardar ou retomar a analise.
+- Requisicoes pendentes ou em espera nao consomem slots de habilidade.
+- Ajustados os indicadores visuais e a sincronizacao das filas de requisicoes.
 
 ## Novidades da 1.6.22
 
