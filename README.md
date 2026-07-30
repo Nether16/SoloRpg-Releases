@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.6.23
+### Versao atual: 1.7
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,21 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.6.23
+- **Versao:** 1.7
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Novidades da 1.7
+
+- A calculadora de Vida, Mana, Folego e recurso customizado agora trabalha com valor fixo ou porcentagem.
+- Alteracoes manuais de recursos recebem mensagens formatadas no chat com valor anterior e atual.
+- Mestres podem manter alteracoes de recursos de NPCs visiveis somente no proprio chat.
+- Bonus de transformacoes e ativacoes agora afetam STR, VIT, INT, STK, FAD e ENG corretamente.
+- Corrigida a exibicao do custo de MP durante a conjuracao de habilidades.
+- O sistema SoloCoin agora mostra mensagens detalhadas para PIN invalido, operacao ausente e erros retornados pelo Supabase.
+- Removidos avisos temporarios de depuracao da conjuracao.
 
 ## Novidades da 1.6.23
 
