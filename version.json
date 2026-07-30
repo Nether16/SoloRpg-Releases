@@ -1,8 +1,8 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.7",
+  "version": "1.7.1",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
-  "sha256": "559b8772eb0da71b03a70d61f70ad6f0c3e20343024997370c1ce20665aefc3f",
-  "size": 617515
+  "sha256": "298bb457fcd0ee8630381065f0abd0b5c54c313c506c75c0ce57a4727414f088",
+  "size": 617485
 }

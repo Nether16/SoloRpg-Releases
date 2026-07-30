@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.7
+### Versao atual: 1.7.1
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,17 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.7
+- **Versao:** 1.7.1
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Novidades da 1.7.1
+
+- A opcao de ocultar mensagens de recursos agora silencia completamente o envio ao chat.
+- A configuracao permanece salva na ficha ate o mestre desmarcar a opcao.
+- A checkbox continua visivel exclusivamente para o mestre.
 
 ## Novidades da 1.7
 
