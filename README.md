@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.7.1
+### Versao atual: 1.7.2
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,22 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.7.1
+- **Versao:** 1.7.2
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Novidades da 1.7.2
+
+- A Loja recebeu pesquisa, filtros de preco, rank, tipo e finalidade, alem de novas opcoes de ordenacao.
+- Cards e detalhes dos itens foram reorganizados para facilitar leitura, compra e comparacao.
+- O popup do item agora exibe recuperacao, dano, bonus de atributo e uma previa das habilidades vinculadas.
+- Valores de dinheiro agora usam separadores de milhar; mensagens de recompensas negativas preservam corretamente o sinal.
+- O sistema de rank passou a guardar niveis sobressalentes ao atingir o teto e reaplica-los quando houver espaco.
+- Compras na Loja SoloCoin agora sao anunciadas no chat do Firecast.
+- Carregar habilidades cria uma pasta vazia para o personagem quando nenhuma pasta estiver vinculada, usando o nome do item da Biblioteca.
+- A criacao automatica de pasta foi limitada a uma operacao especifica no Supabase, sem liberar edicao de rank, classe ou habilidades.
 
 ## Novidades da 1.7.1
 
