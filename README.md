@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.7.2
+### Versao atual: 1.7.3
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,21 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.7.2
+- **Versao:** 1.7.3
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Novidades da 1.7.3
+
+- Famas agora sao sincronizadas pelo Supabase e podem adicionar suas habilidades ao Cacador conforme o nivel da fama.
+- Itens receberam bonus de subatributos e os calculos foram alinhados entre ficha, inventario e ControleNPC.
+- Fluxos de VIP e SoloCoin foram reforcados, incluindo planos por produto, vencimento mensal e suporte a multiplos VIPs ativos.
+- O SoloApp recebeu o gerador e catalogo de NPCs e pets, com ocupacoes administradas pelo banco.
+- Requisicoes de skill podem ser aprovadas sem consumir pontos de pos-sessao; apenas atividades de pos-sessao usam esses pontos.
+- Corrigida a paginacao da Loja que podia causar assertion do RecordList ao carregar ou filtrar itens.
+- SoloRPG, ControleBanco e ControleNPC foram recompilados sem alertas do RDK.
 
 ## Novidades da 1.7.2
 
