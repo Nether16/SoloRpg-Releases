@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.7.4
+### Versao atual: 1.7.5
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,23 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.7.4
+- **Versao:** 1.7.5
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Novidades da 1.7.5
+
+- Habilidades inativas continuam visiveis no Cacador, recebem identificacao visual e nao podem ser conjuradas ate serem ativadas pelo mestre.
+- Presets de habilidade agora permanecem ativos ao criar, copiar, duplicar e salvar; o mestre ainda pode desativar a habilidade depois de aplica-la ao personagem.
+- A Loja agora permite comprar varias unidades de uma vez, calcula o valor total e respeita estoque normal ou ilimitado.
+- Cards e detalhes da Loja passaram a informar em qual aba do inventario o item sera entregue.
+- Dados do personagem agora sincronizam grupo, data no mundo e ponto de continuidade com o controle central.
+- A aba de IA do mestre recebeu Save State para registrar e restaurar recursos, atributos base e distribuicao de pontos.
+- O inventario reforca a sincronizacao de quantidade e atributo escolhido dos itens personalizados.
+- O catalogo VIP Absolute agora lista somente os produtos Absolute e mantem esses produtos fora da loja SoloCoin comum.
+- Aplicados ajustes de estabilidade nas recompensas, na sincronizacao de habilidades e no carregamento das integracoes Supabase.
 
 ## Patch 1.7.4
 
