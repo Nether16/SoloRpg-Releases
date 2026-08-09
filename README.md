@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.7.5
+### Versao atual: 1.7.6
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,21 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.7.5
+- **Versao:** 1.7.6
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Novidades da 1.7.6
+
+- O inventario da ficha agora permite doar itens diretamente para outra ficha, escolhendo o destinatario e a quantidade.
+- As doacoes atualizam os dois inventarios na mesma operacao, preservam os IDs existentes e mantem as pilhas zeradas.
+- O Controle de Itens recebeu filtros por posse, processo, tipo, rank e destino.
+- Itens que ja estao no inventario e itens disponiveis no catalogo agora aparecem em grupos separados e recolhiveis.
+- Os cards foram reorganizados para facilitar a leitura, com estado, informacoes e acoes melhor distribuidos.
+- O botao de doar aparece apenas nos itens realmente possuidos pelo personagem.
+- O sistema de craft e refinamento recebeu as regras canonicas de matrizes, materiais principais, ferramentas, livros, rank e efeitos.
 
 ## Novidades da 1.7.5
 
