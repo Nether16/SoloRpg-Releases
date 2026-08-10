@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.7.6
+### Versao atual: 1.7.7
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,23 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.7.6
+- **Versao:** 1.7.7
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Novidades da 1.7.7
+
+- A aba Cacador recebeu um popup completo de detalhes da habilidade, com identidade, requisitos, custos por ativa, acerto, dano calculado, efeitos, lore, ativacoes e desativacoes.
+- O resumo de dano agora calcula as escalas usando a ficha do personagem e exibe formula, faixa total e media sem precisar rolar a habilidade.
+- O inventario passou a abrir os itens em um popup centralizado, reunindo edicao, uso, venda, doacao, exclusao, dados tecnicos, craft relacionado e habilidades vinculadas.
+- Consumiveis mantem um atalho de uso no card, enquanto venda parcial e doacao respeitam a quantidade possuida e so alteram a ficha depois da confirmacao do banco.
+- Itens podem ser doados entre fichas pelo Firecast e pelo Solo App em uma operacao atomica, preservando pilhas, IDs e vinculo com o catalogo.
+- O controle de itens do Solo App ganhou abas para inventario e catalogo, pesquisa e filtros por processo, tipo, rank e destino.
+- O carregamento de detalhes da Loja foi ampliado para incluir recuperacao, bonus, craft, ingredientes canonicos e habilidades do item.
+- As regras de craft foram ajustadas para validar processo, material principal, livro e ferramentas sem consumir entradas em uma tentativa invalida.
+- Aplicados ajustes visuais e de estabilidade nos cards do inventario, tabelas do popup de habilidade e verificacao de presets ativos.
 
 ## Novidades da 1.7.6
 
