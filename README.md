@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.8
+### Versao atual: 1.8.1
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,19 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.8
+- **Versao:** 1.8.1
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch de seguranca 1.8.1
+
+- Permissoes de mestre agora sao confirmadas pelo banco de dados.
+- Operacoes criticas da ficha exigem uma credencial individual validada no servidor.
+- A credencial completa fica somente na ficha; o banco armazena apenas seu hash.
+- Alterar uma copia local do plugin nao concede permissao para modificar os dados protegidos.
+- Controle Banco 1.1 provisiona e valida automaticamente as credenciais das fichas existentes.
 
 ## Novidades da 1.8
 - Novo sessão para marca sessões dentro da ficha
