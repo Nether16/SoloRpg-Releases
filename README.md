@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.8.2
+### Versao atual: 1.8.3
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,19 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.8.2
+- **Versao:** 1.8.3
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.8.3
+
+- Adicionada auditoria central das fichas, com snapshots e historico de alteracoes importantes.
+- O SoloApp ganhou uma tela para consultar personagens, categorias, origens e registros da auditoria.
+- Controle Banco e Controle NPC deixaram de solicitar PIN e validam o mestre cadastrado pelo banco.
+- As protecoes financeiras do Banco SoloCoin continuam isoladas e preservadas.
+- Corrigido o salvamento de MundoSync e recompilados os plugins e a ficha sem alertas.
 
 ## Patch 1.8.2
 
