@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.8.4
+### Versao atual: 1.8.5
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,19 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.8.4
+- **Versao:** 1.8.5
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.8.5
+
+- O multiplicador de treino agora aumenta somente o custo e a recompensa, mantendo 7, 14 ou 21 perguntas conforme a dificuldade.
+- O treino por IA recebeu tempo limite e retorno local para evitar carregamento infinito quando o provedor falhar.
+- A producao da Base ficou mais clara, mostrando custos, recompensas, postos participantes e efeitos ativos separadamente.
+- Trocar uma habilidade entre conjuracao e ativacao no Solo App nao apaga mais o custo de MP.
+- Os textos das passivas raciais foram limpos sem remover os campos, preparando a reformulacao do sistema de racas.
 
 ## Patch 1.8.4
 
