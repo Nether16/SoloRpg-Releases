@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.8.5
+### Versao atual: 1.8.6
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,17 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.8.5
+- **Versao:** 1.8.6
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.8.6
+
+- A confirmacao do Daily Reward agora mostra separadamente a recompensa diaria, o premio semanal e cada recompensa de companion.
+- Materiais semanais exibem o nome exato do item sorteado, evitando que uma recompensa entregue pareca ausente.
+- Validado no banco que recompensas semanais de Nivel, Nexus, Treino, Material e Ticket sao registradas e aplicadas corretamente.
 
 ## Patch 1.8.5
 
