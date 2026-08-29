@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.8.7
+### Versao atual: 1.8.8
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,21 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.8.7
+- **Versao:** 1.8.8
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.8.8
+
+- A Loja agora mantem o catalogo em memoria e cria somente 20 cards por pagina, reduzindo o tempo de abertura e o travamento da ficha.
+- A paginacao da Loja ganhou botoes numericos, anterior e proximo fora da grade; filtros e ordenacao trabalham direto no cache.
+- Compras atualizam saldo e estoque localmente sem baixar novamente o catalogo inteiro.
+- Todos os Materiais Rank F e E foram adicionados a Loja Base com venda ilimitada e preco do catalogo.
+- Inventario Geral e Materiais receberam pesquisa e filtros, com cards alinhados ao mesmo padrao visual dos equipamentos.
+- Corrigido o salvamento da imagem da Propriedade e reforcado o bloqueio modal dos pop-ups internos da ficha.
+- Incluido o tipo Abissal para Anjo Caido no catalogo de racas.
 
 ## Patch 1.8.7
 
