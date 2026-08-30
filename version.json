@@ -3,6 +3,13 @@
   "version": "1.8.9",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
-  "sha256": "50ad4c82be39a617a64aea02c5dac276754afec3f76f08c125c327c3aad61641",
-  "size": 920251
+  "patchNotes": [
+    "A transferencia da conta agora permite escolher entre SoloCoins e itens do cofre no mesmo painel.",
+    "Itens transferiveis podem ser enviados em quantidade para outra conta usando o mesmo PIN transacional.",
+    "A movimentacao e atomica, valida propriedade e estoque e impede entregas duplicadas.",
+    "Pacotes com varios itens entregam todos os componentes diretamente no cofre.",
+    "Corrigidos erros 401 Unauthorized e Forbidden nas operacoes SoloCoin com PIN valido."
+  ],
+  "sha256": "312bef95c8d603eee3aa1f110fdc9a37b69324f3a6d9d696e4a932c7f82fa2a5",
+  "size": 920426
 }

@@ -1,9 +1,0 @@
-SoloRPG 1.8.9 - Transferencias e correcoes SoloCoin
-
-- O painel de transferencia agora alterna entre SoloCoins e itens do cofre.
-- Itens marcados como transferiveis podem ser enviados em quantidade para outra conta com o mesmo PIN transacional.
-- A movimentacao de itens e atomica, valida propriedade e estoque e possui protecao contra duplicidade.
-- Pacotes com varios itens entregam todos os componentes diretamente no cofre.
-- Corrigidos erros 401 Unauthorized e Forbidden em compras, transferencias e outras operacoes SoloCoin com PIN valido.
-
-Para instalar, abra o SoloRpg.rpk e depois feche e reabra a ficha no Firecast.
