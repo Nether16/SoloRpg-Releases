@@ -1,15 +1,12 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.8.9",
+  "version": "1.8.10",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "A transferencia da conta agora permite escolher entre SoloCoins e itens do cofre no mesmo painel.",
-    "Itens transferiveis podem ser enviados em quantidade para outra conta usando o mesmo PIN transacional.",
-    "A movimentacao e atomica, valida propriedade e estoque e impede entregas duplicadas.",
-    "Pacotes com varios itens entregam todos os componentes diretamente no cofre.",
-    "Corrigidos erros 401 Unauthorized e Forbidden nas operacoes SoloCoin com PIN valido."
+    "Corrigido o erro da Loja ao abrir um catalogo vazio ou aplicar filtros sem resultados.",
+    "A paginacao agora ignora registros ausentes e nao cria cards para itens inexistentes."
   ],
-  "sha256": "312bef95c8d603eee3aa1f110fdc9a37b69324f3a6d9d696e4a932c7f82fa2a5",
-  "size": 920426
+  "sha256": "15a0156603fa85ae6c54fcf971968d356762d713268ee21b836fd22c94e4485f",
+  "size": 920472
 }
