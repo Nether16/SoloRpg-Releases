@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.8.8
+### Versao atual: 1.8.9
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,19 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.8.8
+- **Versao:** 1.8.9
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.8.9
+
+- A transferencia da conta agora permite escolher entre SoloCoins e itens do cofre no mesmo painel.
+- Itens transferiveis podem ser enviados em quantidade para outra conta usando o mesmo destino e PIN transacional.
+- O banco move os itens atomicamente, valida propriedade e estoque e impede entregas duplicadas por repeticao da requisicao.
+- Compras de pacotes com varios itens entregam todos os componentes diretamente no cofre e informam a quantidade recebida.
+- Corrigidos erros `401 Unauthorized` e `Forbidden` nas operacoes SoloCoin protegidas por PIN valido.
 
 ## Patch 1.8.8
 
