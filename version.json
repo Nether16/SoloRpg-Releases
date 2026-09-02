@@ -1,12 +1,13 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.8.10",
+  "version": "1.8.11",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "Corrigido o erro da Loja ao abrir um catalogo vazio ou aplicar filtros sem resultados.",
-    "A paginacao agora ignora registros ausentes e nao cria cards para itens inexistentes."
+    "Personalizacoes locais das habilidades sao preservadas ao recarregar dados, inclusive para itens e famas.",
+    "A edicao de itens salva todos os campos no banco e move corretamente o item entre as abas do inventario.",
+    "O Solo App exige IP permitido e protocolo atual sem bloquear as fichas do Firecast."
   ],
-  "sha256": "15a0156603fa85ae6c54fcf971968d356762d713268ee21b836fd22c94e4485f",
-  "size": 920472
+  "sha256": "0b86d898ec8492f4128ffa55c5e023eacbce780ecee76bb9c50f737535177854",
+  "size": 922093
 }
