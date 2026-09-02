@@ -1,13 +1,13 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.8.11",
+  "version": "1.8.12",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "Personalizacoes locais das habilidades sao preservadas ao recarregar dados, inclusive para itens e famas.",
-    "A edicao de itens salva todos os campos no banco e move corretamente o item entre as abas do inventario.",
-    "O Solo App exige IP permitido e protocolo atual sem bloquear as fichas do Firecast."
+    "Bio e Adicionais agora usam RichEdit com formatacao opcional e toolbar oculta por padrao.",
+    "Textos antigos sao migrados automaticamente para o novo editor sem sobrescrever conteudo ja formatado.",
+    "Corrigido o carregamento de racas nas abas adicionais e a selecao independente das abas de Bio."
   ],
-  "sha256": "0b86d898ec8492f4128ffa55c5e023eacbce780ecee76bb9c50f737535177854",
-  "size": 922093
+  "sha256": "0615cc0c26e96689d745f0abc2b50a3fd1d5b0381b77a4dcf28c54777c48d348",
+  "size": 923911
 }

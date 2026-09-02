@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.8.11
+### Versao atual: 1.8.12
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,19 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.8.11
+- **Versao:** 1.8.12
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.8.12
+
+- As areas de Bio e Adicionais agora usam RichEdit, permitindo formatar textos e imagens com a toolbar oculta por padrao.
+- O comando para mostrar ou esconder a toolbar ficou discreto acima do editor, mantendo o fundo transparente e o espaco de escrita.
+- Textos antigos do TextEditor sao migrados automaticamente para o novo campo rico sem sobrescrever conteudo ja formatado.
+- Corrigido o carregamento de racas em novas abas adicionais, evitando o crash ao inserir texto no RichEdit.
+- Corrigida a selecao das abas de Bio para atuar somente sobre a propria lista.
 
 ## Patch 1.8.11
 
