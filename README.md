@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.8.12
+### Versao atual: 1.9
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,20 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.8.12
+- **Versao:** 1.9
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.9
+
+- O Pos-Sessao agora permite solicitar crafts com duas ferramentas, um livro de receita e quantos materiais forem necessarios.
+- Ferramentas, livro e materiais ficam retidos no banco ate o mestre aceitar ou recusar; as ferramentas retornam depois da aprovacao.
+- Conversar e Sair para Beber ganharam cards visuais dos Vinculos, com foto, nome, rank e Afinidade.
+- Os seletores de craft mostram apenas o tipo correto de item e exibem o bonus proprio que cada material adiciona ao item criado.
+- Os slots fixos foram centralizados e passaram a aparecer sem barras de rolagem desnecessarias.
+- Incluidos ajustes de sincronizacao de habilidades, inventario e estabilidade geral da ficha.
 
 ## Patch 1.8.12
 

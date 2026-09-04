@@ -1,13 +1,15 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.8.12",
+  "version": "1.9",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "Bio e Adicionais agora usam RichEdit com formatacao opcional e toolbar oculta por padrao.",
-    "Textos antigos sao migrados automaticamente para o novo editor sem sobrescrever conteudo ja formatado.",
-    "Corrigido o carregamento de racas nas abas adicionais e a selecao independente das abas de Bio."
+    "Pos-Sessao agora permite solicitar crafts com duas ferramentas, um livro de receita e materiais mantidos em custodia ate a decisao do mestre.",
+    "Conversar e Sair para Beber usam cards visuais de Vinculos e concedem Afinidade somente depois da aprovacao.",
+    "Os seletores de craft filtram os itens pelo tipo correto e mostram o bonus proprio de cada material.",
+    "A interface dos slots de craft foi centralizada e nao exibe barras de rolagem desnecessarias.",
+    "Incluidos ajustes de sincronizacao de habilidades, inventario e estabilidade geral da ficha."
   ],
-  "sha256": "0615cc0c26e96689d745f0abc2b50a3fd1d5b0381b77a4dcf28c54777c48d348",
-  "size": 923911
+  "sha256": "16a03ab721dba7a8cb40d56b2bfba00534b8a7d90a2e7b1d83226687c02e2345",
+  "size": 7765599
 }
