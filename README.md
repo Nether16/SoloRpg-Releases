@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.9
+### Versao atual: 1.10
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,19 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.9
+- **Versao:** 1.10
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.10
+
+- A Base ganhou Certificado de Guilda e estrelas para dinheiro, mutacao de materiais e valor de venda da producao.
+- O Controle Banco recebeu combate persistente, auditoria por personagem, reset de rodada e contadores de uso das habilidades.
+- Titulos agora podem conceder habilidades ativas que sao carregadas junto das habilidades do personagem.
+- O controle de fim de sessao pode entregar pontos de vinculo, usados diretamente nos Vinculos validos da ficha.
+- Incluidas correcoes de craft, precos e sincronizacao de inventario, filtros da Loja e estabilidade geral.
 
 ## Patch 1.9
 

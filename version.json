@@ -1,15 +1,15 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.9",
+  "version": "1.10",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "Pos-Sessao agora permite solicitar crafts com duas ferramentas, um livro de receita e materiais mantidos em custodia ate a decisao do mestre.",
-    "Conversar e Sair para Beber usam cards visuais de Vinculos e concedem Afinidade somente depois da aprovacao.",
-    "Os seletores de craft filtram os itens pelo tipo correto e mostram o bonus proprio de cada material.",
-    "A interface dos slots de craft foi centralizada e nao exibe barras de rolagem desnecessarias.",
-    "Incluidos ajustes de sincronizacao de habilidades, inventario e estabilidade geral da ficha."
+    "A Base ganhou Certificado de Guilda e estrelas para dinheiro, mutacao de materiais e valor de venda da producao.",
+    "O Controle Banco recebeu combate persistente, auditoria por personagem, reset de rodada e contadores de uso das habilidades.",
+    "Titulos agora podem conceder habilidades ativas que sao carregadas junto das habilidades do personagem.",
+    "O fim de sessao pode entregar pontos de vinculo, usados diretamente nos Vinculos validos da ficha.",
+    "Incluidas correcoes de craft, precos e sincronizacao de inventario, filtros da Loja e estabilidade geral."
   ],
-  "sha256": "16a03ab721dba7a8cb40d56b2bfba00534b8a7d90a2e7b1d83226687c02e2345",
-  "size": 7765599
+  "sha256": "e18667ccc78b73c0d61118880f6ed37515cfd45d70bc01f7f0dda3d4c5ae2fb7",
+  "size": 981187
 }
