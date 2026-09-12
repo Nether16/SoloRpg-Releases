@@ -1,15 +1,15 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.10",
+  "version": "1.11",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "A Base ganhou Certificado de Guilda e estrelas para dinheiro, mutacao de materiais e valor de venda da producao.",
-    "O Controle Banco recebeu combate persistente, auditoria por personagem, reset de rodada e contadores de uso das habilidades.",
-    "Titulos agora podem conceder habilidades ativas que sao carregadas junto das habilidades do personagem.",
-    "O fim de sessao pode entregar pontos de vinculo, usados diretamente nos Vinculos validos da ficha.",
-    "Incluidas correcoes de craft, precos e sincronizacao de inventario, filtros da Loja e estabilidade geral."
+    "Pontos de Vinculo gastos agora permanecem salvos no banco ao fechar e reabrir a ficha.",
+    "Descricoes digitadas nas solicitacoes de Pos-Sessao e criacao de Skill deixam de ser enviadas em branco.",
+    "Compras da Loja SoloCoin validam corretamente produto, quantidade e personagem e mostram o motivo real da recusa.",
+    "Edicoes de nome, imagem e atributos de itens nao falham mais por quantidade local dessincronizada.",
+    "Revisadas as autorizacoes da ficha sem remover o PIN das operacoes financeiras SoloCoin."
   ],
-  "sha256": "e18667ccc78b73c0d61118880f6ed37515cfd45d70bc01f7f0dda3d4c5ae2fb7",
-  "size": 981187
+  "sha256": "ca43facb2551f9b02519b0592a9fbe6bafee6d5934c8663ef35443520a6d0a07",
+  "size": 981857
 }
