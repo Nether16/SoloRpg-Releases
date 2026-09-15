@@ -1,15 +1,15 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.11",
+  "version": "1.11.1",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "Pontos de Vinculo gastos agora permanecem salvos no banco ao fechar e reabrir a ficha.",
-    "Descricoes digitadas nas solicitacoes de Pos-Sessao e criacao de Skill deixam de ser enviadas em branco.",
-    "Compras da Loja SoloCoin validam corretamente produto, quantidade e personagem e mostram o motivo real da recusa.",
-    "Edicoes de nome, imagem e atributos de itens nao falham mais por quantidade local dessincronizada.",
-    "Revisadas as autorizacoes da ficha sem remover o PIN das operacoes financeiras SoloCoin."
+    "A Evaluation da Base agora e recalculada imediatamente depois da compra de uma estrela de Guilda.",
+    "O custo das estrelas permanece fora do valor investido e do valor de venda da Base.",
+    "O Solo App permite adicionar titulos em fichas ainda sem jogador e preserva os titulos quando a ficha for vinculada.",
+    "A agenda da ficha atualiza os horarios antes de abrir a marcacao de sessoes.",
+    "Mais de um grupo pode solicitar o mesmo horario e os grupos interessados ficam visiveis para os jogadores."
   ],
-  "sha256": "ca43facb2551f9b02519b0592a9fbe6bafee6d5934c8663ef35443520a6d0a07",
-  "size": 981857
+  "sha256": "adb6ec05af9b4e0fade457292e28267b661543a6f8af40e85412a1bdd30e3605",
+  "size": 982765
 }
