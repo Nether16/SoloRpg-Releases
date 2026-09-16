@@ -1,12 +1,12 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.11.2",
+  "version": "1.11.3",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "Transformacoes no modo Integrar agora somam passiva e ativa uma unica vez, respeitam o teto nas proximas conjuracoes e revertem corretamente o bonus ao serem desativadas.",
-    "A atividade de Pos-Sessao Criar Skill foi renomeada para Habilitar Skill e agora preserva a descricao digitada no pedido enviado ao mestre."
+    "As barras de vida, mana, folego e recurso extra agora ficam bloqueadas para jogadores fora de uma sessao ativa; mestres continuam com acesso integral.",
+    "O Controle Banco separa sessao de combate: habilidades usadas antes do combate entram no log sem consumir acoes, e encerrar o combate preserva a sessao e os participantes."
   ],
-  "sha256": "9f4a21c61eb8efcfb55b0409f3bd199f05de83f5350e24e69420ca476349f1e2",
-  "size": 981411
+  "sha256": "89b796749e500dbcfea0bcc08543be85ccf5038a585adaf6f2b9441209760e4c",
+  "size": 981584
 }
