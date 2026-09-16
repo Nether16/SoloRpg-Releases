@@ -32,6 +32,7 @@ O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
 
 ## Patch 1.11.1
 
+- Transformacoes no modo Integrar agora somam o valor passivo com o valor ativo uma unica vez, respeitam esse teto nas conjuracoes seguintes e removem corretamente todo o bonus ao serem desativadas.
 - A Evaluation da Base agora e recalculada imediatamente depois da compra de uma estrela de Guilda.
 - O custo das estrelas permanece fora do valor investido e do valor de venda da Base.
 - O Solo App permite adicionar titulos em fichas ainda sem jogador e preserva os titulos quando a ficha for vinculada.
