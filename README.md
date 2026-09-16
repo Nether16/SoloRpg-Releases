@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.11.1
+### Versao atual: 1.11.2
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,15 +24,19 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.11.1
+- **Versao:** 1.11.2
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
 
-## Patch 1.11.1
+## Patch 1.11.2
 
 - Transformacoes no modo Integrar agora somam o valor passivo com o valor ativo uma unica vez, respeitam esse teto nas conjuracoes seguintes e removem corretamente todo o bonus ao serem desativadas.
+- A atividade de Pos-Sessao Criar Skill foi renomeada para Habilitar Skill e agora preserva a descricao digitada no pedido enviado ao mestre.
+
+## Patch 1.11.1
+
 - A Evaluation da Base agora e recalculada imediatamente depois da compra de uma estrela de Guilda.
 - O custo das estrelas permanece fora do valor investido e do valor de venda da Base.
 - O Solo App permite adicionar titulos em fichas ainda sem jogador e preserva os titulos quando a ficha for vinculada.
