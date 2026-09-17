@@ -1,12 +1,16 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.11.3",
+  "version": "1.11.4",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "As barras de vida, mana, folego e recurso extra agora ficam bloqueadas para jogadores fora de uma sessao ativa; mestres continuam com acesso integral.",
-    "O Controle Banco separa sessao de combate: habilidades usadas antes do combate entram no log sem consumir acoes, e encerrar o combate preserva a sessao e os participantes."
+    "O SoloBank ganhou boosts temporarios de nivel para todos os personagens da conta, com ofertas e duracoes configuradas pelo Solo App.",
+    "Recompensas de login VIP e do decimo quinto dia agora sao entregues automaticamente, mantendo a entrega manual como contingencia.",
+    "O Solo App ganhou permissoes individuais por aba e corrigiu a autorizacao das pastas de habilidades de NPC.",
+    "As lojas agora aceitam acrescimos aditivos por Rank, Matriz, Tipo e item, com o preco final validado no banco.",
+    "A doacao de itens passou a reconhecer o personagem principal dos jogadores online e exibe fichas antigas sem vinculo direto de conta.",
+    "IDs do catalogo SoloCoin foram atualizados e somente produtos VIP permanecem bloqueados para transferencia."
   ],
-  "sha256": "89b796749e500dbcfea0bcc08543be85ccf5038a585adaf6f2b9441209760e4c",
-  "size": 981584
+  "sha256": "041dbaecfb21361e0ed646e48cb51393063eabe0a04c3b7d5f5aff44ec24733b",
+  "size": 987062
 }

@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.11.3
+### Versao atual: 1.11.4
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,20 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.11.3
+- **Versao:** 1.11.4
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.11.4
+
+- O SoloBank ganhou boosts temporarios de nivel para todos os personagens da conta, com ofertas e duracoes configuradas pelo Solo App.
+- Recompensas de login VIP e do decimo quinto dia agora sao entregues automaticamente, mantendo a entrega manual como contingencia.
+- O Solo App ganhou permissoes individuais por aba e corrigiu a autorizacao das pastas de habilidades de NPC.
+- As lojas agora aceitam acrescimos aditivos por Rank, Matriz, Tipo e item, com o preco final validado no banco.
+- A doacao de itens passou a reconhecer o personagem principal dos jogadores online e exibe fichas antigas sem vinculo direto de conta.
+- IDs do catalogo SoloCoin foram atualizados e somente produtos VIP permanecem bloqueados para transferencia.
 
 ## Patch 1.11.3
 
