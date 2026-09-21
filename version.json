@@ -1,16 +1,17 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.11.4",
+  "version": "1.12",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "O SoloBank ganhou boosts temporarios de nivel para todos os personagens da conta, com ofertas e duracoes configuradas pelo Solo App.",
-    "Recompensas de login VIP e do decimo quinto dia agora sao entregues automaticamente, mantendo a entrega manual como contingencia.",
-    "O Solo App ganhou permissoes individuais por aba e corrigiu a autorizacao das pastas de habilidades de NPC.",
-    "As lojas agora aceitam acrescimos aditivos por Rank, Matriz, Tipo e item, com o preco final validado no banco.",
-    "A doacao de itens passou a reconhecer o personagem principal dos jogadores online e exibe fichas antigas sem vinculo direto de conta.",
-    "IDs do catalogo SoloCoin foram atualizados e somente produtos VIP permanecem bloqueados para transferencia."
+    "O Gerador de Portais agora salva a quantidade e as entradas dos jogadores e permite liquidar o loot ao finalizar, vendendo para a Associacao com taxa configuravel ou enviando uma compra ao inventario.",
+    "O SoloBank ganhou boosts 1.5x por sessao para Nivel, Dinheiro, Treino e Pos-sessao, com consumo opcional no Controle de Fim de Sessao.",
+    "Transferencias de itens do cofre agora calculam e cobram a taxa pelo valor do item antes de concluir a operacao.",
+    "O Solo App permite adicionar varios Vinculos a varias fichas de uma vez, preservando os Vinculos que ja existiam.",
+    "As lojas ganharam regras combinadas por Rank, Matriz e Tipo, inclusao de itens em lote e escolha de estoque limitado ou ilimitado.",
+    "O Treino passou a limitar as perguntas ao nivel de Conhecimento liberado em cada Vinculo e ajusta textos longos na tela.",
+    "A exibicao das habilidades do jogador recebeu os blocos coloridos do Controle NPC, e o painel de NPC foi simplificado para o uso dos mestres."
   ],
-  "sha256": "041dbaecfb21361e0ed646e48cb51393063eabe0a04c3b7d5f5aff44ec24733b",
-  "size": 987062
+  "sha256": "86d8f5b8ed69ce0fe981ede75b040281521b353571934aca2b9373f7af6ca40a",
+  "size": 1125690
 }

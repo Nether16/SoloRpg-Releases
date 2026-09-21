@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.11.4
+### Versao atual: 1.12
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,21 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.11.4
+- **Versao:** 1.12
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.12
+
+- O Gerador de Portais agora salva a quantidade e as entradas dos jogadores e permite liquidar o loot ao finalizar, vendendo para a Associacao com taxa configuravel ou enviando uma compra ao inventario.
+- O SoloBank ganhou boosts 1.5x por sessao para Nivel, Dinheiro, Treino e Pos-sessao, com consumo opcional no Controle de Fim de Sessao.
+- Transferencias de itens do cofre agora calculam e cobram a taxa pelo valor do item antes de concluir a operacao.
+- O Solo App permite adicionar varios Vinculos a varias fichas de uma vez, preservando os Vinculos que ja existiam.
+- As lojas ganharam regras combinadas por Rank, Matriz e Tipo, inclusao de itens em lote e escolha de estoque limitado ou ilimitado.
+- O Treino passou a limitar as perguntas ao nivel de Conhecimento liberado em cada Vinculo e ajusta textos longos na tela.
+- A exibicao das habilidades do jogador recebeu os blocos coloridos do Controle NPC, e o painel de NPC foi simplificado para o uso dos mestres.
 
 ## Patch 1.11.4
 
