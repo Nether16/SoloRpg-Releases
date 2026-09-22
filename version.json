@@ -1,17 +1,12 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.12",
+  "version": "1.12.1",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "O Gerador de Portais agora salva a quantidade e as entradas dos jogadores e permite liquidar o loot ao finalizar, vendendo para a Associacao com taxa configuravel ou enviando uma compra ao inventario.",
-    "O SoloBank ganhou boosts 1.5x por sessao para Nivel, Dinheiro, Treino e Pos-sessao, com consumo opcional no Controle de Fim de Sessao.",
-    "Transferencias de itens do cofre agora calculam e cobram a taxa pelo valor do item antes de concluir a operacao.",
-    "O Solo App permite adicionar varios Vinculos a varias fichas de uma vez, preservando os Vinculos que ja existiam.",
-    "As lojas ganharam regras combinadas por Rank, Matriz e Tipo, inclusao de itens em lote e escolha de estoque limitado ou ilimitado.",
-    "O Treino passou a limitar as perguntas ao nivel de Conhecimento liberado em cada Vinculo e ajusta textos longos na tela.",
-    "A exibicao das habilidades do jogador recebeu os blocos coloridos do Controle NPC, e o painel de NPC foi simplificado para o uso dos mestres."
+    "Corrigida a selecao das ofertas de boost do SoloBank, evitando Oferta indisponivel para combinacoes validas de tipo e sessoes.",
+    "A area de habilidades recebeu comandos discretos para ativar ou encerrar de uma vez todas as skills do modo Ativacao."
   ],
-  "sha256": "86d8f5b8ed69ce0fe981ede75b040281521b353571934aca2b9373f7af6ca40a",
-  "size": 1125690
+  "sha256": "a9c5f426fa58e8eedcdf0523c24fcf8665a6cafa41a927e509d367bcc70d7c22",
+  "size": 1127985
 }
