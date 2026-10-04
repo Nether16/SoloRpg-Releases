@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.12.1
+### Versao atual: 1.12.2
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,20 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.12.1
+- **Versao:** 1.12.2
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.12.2
+
+- O SoloBank ganhou um Passe de Batalha completo, com temporadas configuraveis, selecao de personagem, montagem antecipada das trilhas Base e Premium, progressao em Battle Points e Loja Pos-Passe.
+- Pets passaram a funcionar como itens equipaveis de slot unico, com habilidades canonicas e suporte a skins; a Yoruichi de Halloween pode ser resgatada mesmo enquanto suas skills ainda estao sendo cadastradas.
+- Recompensas repetiveis do Passe agora se acumulam corretamente no Cofre, e o Pet do primeiro nivel Premium deixa de ser entregue em duplicidade.
+- Operacoes do Passe de Batalha nao exibem mais o dialogo de PIN, mantendo a confirmacao de seguranca nas demais operacoes do SoloBank.
+- Controle NPC e Controle de Combate preservam contexto por instancia, permitindo sessoes e NPCs diferentes abertos ao mesmo tempo sem sobrescrever o trabalho de outro mestre.
+- Foram incluidos desconto de Mercador nas lojas, evolucao de habilidades na ficha e protecao para a recompensa diaria nao consumir boosts de sessao.
 
 ## Patch 1.12.1
 
