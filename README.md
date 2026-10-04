@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.12.2
+### Versao atual: 1.12.3
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,17 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.12.2
+- **Versao:** 1.12.3
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.12.3
+
+- Os cards de recompensa do Passe de Batalha ficaram maiores, exibem as imagens completas sem corte e mantem somente a rolagem horizontal entre os niveis.
+- Recompensas com limite atingido deixam de aparecer nos outros slots durante a montagem, e a ficha valida toda a selecao antes de envia-la ao banco.
+- O Pet e a Skin de Halloween agora respeitam o limite por personagem, sem bloquear os demais jogadores; o Pet Premium e entregue apenas no nivel 1.
 
 ## Patch 1.12.2
 

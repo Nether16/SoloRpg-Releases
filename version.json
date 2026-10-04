@@ -1,15 +1,13 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.12.2",
+  "version": "1.12.3",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "O SoloBank ganhou Passe de Batalha configuravel com trilhas Base e Premium, Battle Points e Loja Pos-Passe.",
-    "Pets agora sao itens equipaveis de slot unico, com habilidades canonicas e suporte a skins.",
-    "Recompensas repetiveis acumulam corretamente no Cofre e o Pet Premium nao e mais entregue em duplicidade.",
-    "O Passe de Batalha nao pede mais PIN; as demais operacoes do SoloBank continuam protegidas.",
-    "Controle NPC e Controle de Combate preservam contexto separado por instancia."
+    "Os cards de recompensa do Passe de Batalha ficaram maiores e exibem as imagens sem corte.",
+    "Recompensas com limite atingido deixam de aparecer nos outros slots e a montagem e validada antes do envio.",
+    "O Pet e a Skin de Halloween agora usam limite por personagem, e o Pet Premium e entregue apenas no nivel 1."
   ],
-  "sha256": "734fed0189fdb362c9853f4d9211bbbd351cb943a66f662efe60b1c278ad57fd",
-  "size": 1151264
+  "sha256": "aa26d070d4dde1d9e7b1e5e6ffb01065a5ff66b73dbd093b30dc9a3625c5a020",
+  "size": 1151697
 }
