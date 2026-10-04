@@ -1,13 +1,13 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.12.3",
+  "version": "1.12.4",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "Os cards de recompensa do Passe de Batalha ficaram maiores e exibem as imagens sem corte.",
-    "Recompensas com limite atingido deixam de aparecer nos outros slots e a montagem e validada antes do envio.",
-    "O Pet e a Skin de Halloween agora usam limite por personagem, e o Pet Premium e entregue apenas no nivel 1."
+    "O jogador pode escolher entre pagar somente a trilha Base ou ativar Base e Premium juntas.",
+    "A montagem recalcula o custo e exige apenas as recompensas pertencentes ao plano selecionado.",
+    "Os cards Premium ficam identificados como nao incluidos enquanto o plano Base estiver selecionado."
   ],
-  "sha256": "aa26d070d4dde1d9e7b1e5e6ffb01065a5ff66b73dbd093b30dc9a3625c5a020",
-  "size": 1151697
+  "sha256": "1af32f9f17ea20aae15eb174ac292ba55a6647ddb44042e7e2f8a9583e043afd",
+  "size": 1152416
 }
