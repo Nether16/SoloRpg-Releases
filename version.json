@@ -1,13 +1,14 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.12.4",
+  "version": "1.13",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "O jogador pode escolher entre pagar somente a trilha Base ou ativar Base e Premium juntas.",
-    "A montagem recalcula o custo e exige apenas as recompensas pertencentes ao plano selecionado.",
-    "Os cards Premium ficam identificados como nao incluidos enquanto o plano Base estiver selecionado."
+    "O inventario ganhou uma aba exclusiva para Pets, integrada a equipamentos, habilidades, lojas e sincronizacao.",
+    "Pet e Skin da Yoruichi de Halloween agora sao recompensas canonicas separadas.",
+    "A ficha e os controles agora roteiam os dados entre dois shards do Supabase com fallback para o banco anterior.",
+    "Helpers de inventario, doacao, recompensas diarias e politicas de leitura foram restaurados nos shards."
   ],
-  "sha256": "1af32f9f17ea20aae15eb174ac292ba55a6647ddb44042e7e2f8a9583e043afd",
-  "size": 1152416
+  "sha256": "0f81594ac2cf4f8416e63ffad85b87bb677912618cc09031ae072cfd5ef7003f",
+  "size": 1162467
 }
