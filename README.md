@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.13
+### Versao atual: 1.13.1
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,19 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.13
+- **Versao:** 1.13.1
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.13.1
+
+- Corrigido o roteamento entre os dois shards para entregas na ficha, recompensas pendentes e Vinculos chegarem ao banco correto de cada personagem.
+- Catalogos compartilhados agora usam IDs globais e permanecem sincronizados entre os shards, evitando registros duplicados ou divergentes.
+- A entrega de recompensas na ficha ficou idempotente e ganhou novas tentativas automaticas quando uma sincronizacao falha.
+- Recompensas diarias passam a considerar os Companions, e os ajustes recentes de Passe de Batalha, recompensas VIP e tipo de Mana foram incluidos no pacote.
+- A ficha, o Controle Banco e o Controle NPC deixam de recorrer ao banco antigo durante falhas, evitando leituras e gravacoes no projeto errado.
 
 ## Versao 1.13
 

@@ -1,14 +1,14 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.13",
+  "version": "1.13.1",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "O inventario ganhou uma aba exclusiva para Pets, integrada a equipamentos, habilidades, lojas e sincronizacao.",
-    "Pet e Skin da Yoruichi de Halloween agora sao recompensas canonicas separadas.",
-    "A ficha e os controles agora roteiam os dados entre dois shards do Supabase com fallback para o banco anterior.",
-    "Helpers de inventario, doacao, recompensas diarias e politicas de leitura foram restaurados nos shards."
+    "Corrigido o roteamento entre os dois shards para entregas, recompensas pendentes e Vinculos.",
+    "Catalogos compartilhados agora usam IDs globais e permanecem sincronizados entre os shards.",
+    "Entregas na ficha ficaram idempotentes e ganharam novas tentativas automaticas em caso de falha.",
+    "Recompensas diarias por Companions e os ajustes recentes do Passe de Batalha foram incluidos."
   ],
-  "sha256": "0f81594ac2cf4f8416e63ffad85b87bb677912618cc09031ae072cfd5ef7003f",
-  "size": 1162467
+  "sha256": "69ea0a54310834adb71f6a6624f57a398e9442989ae9ee6bef4828c3cd0a6253",
+  "size": 1165404
 }
