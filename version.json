@@ -1,14 +1,13 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.13.1",
+  "version": "1.14.0",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "Corrigido o roteamento entre os dois shards para entregas, recompensas pendentes e Vinculos.",
-    "Catalogos compartilhados agora usam IDs globais e permanecem sincronizados entre os shards.",
-    "Entregas na ficha ficaram idempotentes e ganharam novas tentativas automaticas em caso de falha.",
-    "Recompensas diarias por Companions e os ajustes recentes do Passe de Batalha foram incluidos."
+    "Novo roteamento fisico: dados de jogo e fichas usam somente o banco Core; catalogos de Content usam somente o banco Content.",
+    "Removido o roteamento antigo por usuario que podia gravar Daily Rewards, Battle Pass, ficha e recompensas no banco errado.",
+    "Mantidas as correcoes recentes de inventario, habilidades, titulos, Vinculos e sincronizacao de ficha."
   ],
-  "sha256": "69ea0a54310834adb71f6a6624f57a398e9442989ae9ee6bef4828c3cd0a6253",
-  "size": 1165404
+  "sha256": "0fb5297b3ec9c434e82bb9dee009c50b8421fdd00cc800b0865af4bf317a71bc",
+  "size": 1167334
 }
