@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.13.1
+### Versao atual: 1.14.1
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,25 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.13.1
+- **Versao:** 1.14.1
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.14.1
+
+- O carregamento da ficha agora aguarda o estado correto do Firecast antes de recalcular nivel, rank, atributos, recursos e equipamentos, evitando que valores temporariamente ausentes sejam gravados como zero.
+- Pontos de atributo e totais voltam a responder imediatamente a mudancas de nivel e atributos nas fichas afetadas.
+- Foi incluida uma recuperacao segura e pontual para dados de ficha corrompidos durante a migracao dos shards.
+- A sincronizacao assincrona de inventario, equipamentos e loja foi estabilizada para nao reaplicar estados antigos depois de uma edicao.
+- O roteamento fisico entre os bancos Core e Content foi preservado, sem voltar a gravar dados no shard errado.
+
+## Versao 1.14.0
+
+- Dados de jogo e fichas passaram a usar somente o banco Core, enquanto catalogos de conteudo passaram a usar somente o banco Content.
+- Foi removido o roteamento antigo por usuario que podia gravar Daily Rewards, Battle Pass, ficha e recompensas no banco errado.
+- Foram mantidas as correcoes de inventario, habilidades, titulos, Vinculos e sincronizacao de ficha.
 
 ## Patch 1.13.1
 

@@ -1,13 +1,14 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.14.0",
+  "version": "1.14.1",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "Novo roteamento fisico: dados de jogo e fichas usam somente o banco Core; catalogos de Content usam somente o banco Content.",
-    "Removido o roteamento antigo por usuario que podia gravar Daily Rewards, Battle Pass, ficha e recompensas no banco errado.",
-    "Mantidas as correcoes recentes de inventario, habilidades, titulos, Vinculos e sincronizacao de ficha."
+    "Protege o carregamento da ficha para que nivel, rank, atributos e recursos nao sejam zerados por estados parciais do Firecast.",
+    "Corrige a atualizacao dos pontos de atributo e dos totais em fichas afetadas, com recuperacao segura dos dados corrompidos.",
+    "Estabiliza a sincronizacao de inventario, equipamentos e loja depois de alteracoes na ficha.",
+    "Mantem o roteamento fisico entre os bancos Core e Content sem reintroduzir gravacoes no shard errado."
   ],
-  "sha256": "0fb5297b3ec9c434e82bb9dee009c50b8421fdd00cc800b0865af4bf317a71bc",
-  "size": 1167334
+  "sha256": "98a5f65bb8d208c87bd57df4a9e6f1063146bf01fdfd59c3841a82c21d06d991",
+  "size": 1174446
 }
