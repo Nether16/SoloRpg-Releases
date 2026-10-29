@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.14.1
+### Versao atual: 1.14.2
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,18 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.14.1
+- **Versao:** 1.14.2
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.14.2
+
+- O mestre agora pode definir uma recompensa fixa/recomendada para cada slot em que o jogador escolhe.
+- Slots ainda vazios carregam automaticamente o passe recomendado e mostram que a sugestao pode ser trocada.
+- Escolhas ja salvas continuam tendo prioridade, e recomendacoes invalidas ou acima do limite nao sao aplicadas.
+- O servidor garante que cada recompensa recomendada tambem esteja entre as opcoes validas do slot.
 
 ## Patch 1.14.1
 

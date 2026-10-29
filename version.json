@@ -1,14 +1,13 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.14.1",
+  "version": "1.14.2",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "Protege o carregamento da ficha para que nivel, rank, atributos e recursos nao sejam zerados por estados parciais do Firecast.",
-    "Corrige a atualizacao dos pontos de atributo e dos totais em fichas afetadas, com recuperacao segura dos dados corrompidos.",
-    "Estabiliza a sincronizacao de inventario, equipamentos e loja depois de alteracoes na ficha.",
-    "Mantem o roteamento fisico entre os bancos Core e Content sem reintroduzir gravacoes no shard errado."
+    "Adiciona um passe recomendado configurado pelo mestre para preencher recompensas ainda vazias.",
+    "Identifica as sugestoes como recomendadas e permite que o jogador troque qualquer uma antes de confirmar.",
+    "Preserva escolhas ja salvas e respeita opcoes validas e limites de repeticao."
   ],
-  "sha256": "98a5f65bb8d208c87bd57df4a9e6f1063146bf01fdfd59c3841a82c21d06d991",
-  "size": 1174446
+  "sha256": "21396946618b1f263bcd6674fe74e2c47c10aa0635f7b7cf1c8e407951103dea",
+  "size": 1175129
 }
