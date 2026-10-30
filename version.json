@@ -1,13 +1,14 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.14.2",
+  "version": "1.14.3",
   "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "Adiciona um passe recomendado configurado pelo mestre para preencher recompensas ainda vazias.",
-    "Identifica as sugestoes como recomendadas e permite que o jogador troque qualquer uma antes de confirmar.",
-    "Preserva escolhas ja salvas e respeita opcoes validas e limites de repeticao."
+    "Adiciona um slot de Montaria independente ao lado do slot de Pet.",
+    "Transforma a aba Pets em Cosmeticos, com selecao separada entre Pets e Montarias.",
+    "Permite criar, editar, entregar e equipar Montarias pelo Solo App e pela ficha.",
+    "Mantem atributos e habilidades de Pets e Montarias ativos em seus respectivos slots."
   ],
-  "sha256": "21396946618b1f263bcd6674fe74e2c47c10aa0635f7b7cf1c8e407951103dea",
-  "size": 1175129
+  "sha256": "2656051da8fa5e6332e568002aab1dda5603f8210f56fbb3a2867bfac4952185",
+  "size": 1178943
 }

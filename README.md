@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.14.2
+### Versao atual: 1.14.3
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,19 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.14.2
+- **Versao:** 1.14.3
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.14.3
+
+- Adicionado um slot de Montaria independente ao lado do slot de Pet.
+- A aba Pets foi transformada em Cosmeticos, com selecao separada entre Pets e Montarias.
+- Montarias agora podem ser criadas, editadas e entregues pelo Solo App e equipadas na ficha.
+- Pets e Montarias podem permanecer equipados ao mesmo tempo, cada um com seus proprios atributos e habilidades.
+- A sincronizacao com o banco foi atualizada para preservar e normalizar os dois tipos de cosmetico.
 
 ## Patch 1.14.2
 
