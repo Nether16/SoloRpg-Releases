@@ -1,14 +1,15 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.14.3",
-  "pageUrl": "https://github.com/Nether16/SoloRpg-Releases",
+  "version": "1.14.4",
+  "pageUrl": "https://github.com/Nether16/SoloRpg-Releases/releases/tag/v1.14.4",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "Adiciona um slot de Montaria independente ao lado do slot de Pet.",
-    "Transforma a aba Pets em Cosmeticos, com selecao separada entre Pets e Montarias.",
-    "Permite criar, editar, entregar e equipar Montarias pelo Solo App e pela ficha.",
-    "Mantem atributos e habilidades de Pets e Montarias ativos em seus respectivos slots."
+    "Cada personagem pode participar de ate 4 bases, contando proprietarios, coproprietarios e slots sem duplicar a mesma base.",
+    "Recusas ao adicionar proprietarios mostram o motivo real; a regra de 50% de semelhanca continua ativa.",
+    "Controle NPC: corrige selecao de skills, equipamentos entre janelas e duplicacao ao salvar itens.",
+    "Controle NPC: preserva habilidades de equipamentos durante recalculos e ignora respostas antigas apos trocar de NPC.",
+    "Controle NPC: atualiza a integracao Groq e impede salvar NPCs carregados incompletamente."
   ],
-  "sha256": "2656051da8fa5e6332e568002aab1dda5603f8210f56fbb3a2867bfac4952185",
-  "size": 1178943
+  "sha256": "84315783a8fe61dddbbc8fac42ec5b297c3b93522b3c247ecc3dd4e204f4878c",
+  "size": 1181358
 }

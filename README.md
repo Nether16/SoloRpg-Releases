@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.14.3
+### Versao atual: 1.14.4
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,27 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.14.3
+- **Versao:** 1.14.4
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.14.4
+
+- Cada personagem pode participar de ate 4 bases, como proprietario, coproprietario ou participante de slot. A mesma base conta apenas uma vez.
+- O banco e a ficha mostram o motivo real ao recusar um novo proprietario, inclusive o nome da base em conflito. A regra de 50% de semelhanca permanece ativa.
+- O Controle NPC preserva a selecao e as ativacoes das habilidades de equipamento durante recalculos e passa a reconhecer skills adicionadas depois da abertura.
+- Equipamentos e escolhas pendentes ficam isolados entre janelas e NPCs; salvar um item novamente nao cria outra copia.
+- Respostas antigas de inventario, pastas e IA nao preenchem outro NPC depois de trocar a selecao.
+- A integracao Groq usa o modelo atual e JSON estruturado, com timeout e mensagens de erro.
+- NPCs que nao terminaram de carregar nao podem ser salvos com dados incompletos.
+
+### Controle NPC 1.2.1
+
+[Baixar ControleNpc.rpk](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/ControleNpc.rpk)
+
+O Controle NPC deve ser atualizado pelos mestres que utilizam esse plugin.
 
 ## Patch 1.14.3
 
