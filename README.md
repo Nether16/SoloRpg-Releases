@@ -35,22 +35,18 @@ O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
 - Paineis, titulos, botoes e seletores centralizados no celular, com margens e espacamento mais uniformes.
 - Rotulos e campos ficam juntos ao quebrar linhas; o modo PC continua com sua disposicao original.
 - Vinculos abre com largura correta e mostra Pontos de Vinculo e Aceitacao Global em colunas alinhadas.
-- Corrigidos cards que cresciam a cada recalculo, selecao desencontrada de abas e paineis estreitos no Controle NPC.
-- Pop-ups de inventario e base se ajustam a janela da ficha, e os equipamentos do NPC usam um modal independente.
-- Corrigido o erro `rawget (table expected, got string)` na selecao de NPC, sem alterar permissoes ou dados dos personagens.
-- Controle Banco e Controle NPC recebem o mesmo adaptador de layout da ficha.
+- Corrigidos cards que cresciam a cada recalculo e selecao desencontrada de abas.
+- Pop-ups de inventario e base se ajustam a janela da ficha.
 
-### Pacotes desta atualizacao
+### Pacote desta atualizacao
 
 | Plugin | Versao | Download |
 | --- | --- | --- |
 | Ficha do jogador | 1.14.6 | [SoloRpg.rpk](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk) |
-| Controle NPC | 1.2.2 | [ControleNpc.rpk](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/ControleNpc.rpk) |
-| Controle Banco | 1.3.0 | [ControleBanco.rpk](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/ControleBanco.rpk) |
 
-Jogadores precisam atualizar a ficha. Mestres que usam os controles devem instalar tambem os respectivos pacotes. Depois da instalacao, reinicie o Firecast para limpar modulos antigos em memoria.
+Esta publicacao inclui somente a ficha do jogador SoloRPG. Depois da instalacao, reinicie o Firecast para limpar modulos antigos em memoria.
 
-Os testes automatizados e as tres compilacoes passaram. As previas sao simulacoes do layout; a validacao em celular real ainda esta pendente.
+Os testes automatizados e a compilacao passaram. As previas sao simulacoes do layout; a validacao em celular real ainda esta pendente.
 
 ## Patch 1.14.5
 
@@ -73,12 +69,6 @@ Os testes automatizados e a compilacao foram executados. A adaptacao visual aind
 - Respostas antigas de inventario, pastas e IA nao preenchem outro NPC depois de trocar a selecao.
 - A integracao Groq usa o modelo atual e JSON estruturado, com timeout e mensagens de erro.
 - NPCs que nao terminaram de carregar nao podem ser salvos com dados incompletos.
-
-### Controle NPC 1.2.1
-
-[Baixar ControleNpc.rpk](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/ControleNpc.rpk)
-
-O Controle NPC deve ser atualizado pelos mestres que utilizam esse plugin.
 
 ## Patch 1.14.3
 
