@@ -1,15 +1,15 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.14.5",
-  "pageUrl": "https://github.com/Nether16/SoloRpg-Releases/releases/tag/v1.14.5",
+  "version": "1.14.6",
+  "pageUrl": "https://github.com/Nether16/SoloRpg-Releases/releases/tag/v1.14.6",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "Modo celular automatico na ficha e no SoloBank, com paineis reorganizados e seletores compactos de abas.",
-    "Inventario e Base ganham menus compactos; pop-ups se ajustam a tela com rolagem e controles maiores para toque.",
-    "Consulte passes anteriores e compre em suas lojas com as moedas da temporada, mantendo a exigencia de Premium concluido.",
-    "Habilidades de equipamento preservam selecao, personalizacoes e ativacoes durante recalculos.",
-    "Itens zerados deixam de conceder bonus; escolhas de equipamento ficam isoladas entre fichas e janelas."
+    "Paineis, titulos, botoes e seletores centralizados no celular, com margens e espacamento uniformes.",
+    "Rotulos e campos permanecem juntos ao quebrar linhas, mantendo a disposicao original no PC.",
+    "Vinculos abre com largura correta e mostra Pontos de Vinculo e Aceitacao Global alinhados.",
+    "Corrigidos cards que cresciam durante recalculos, selecao de abas e ajuste dos pop-ups de inventario e base.",
+    "Controle NPC 1.2.2 corrige o erro rawget e usa modal independente para equipamentos; Controle Banco 1.3.0 recebe o mesmo layout responsivo."
   ],
-  "sha256": "a8d9c2fa0ad1db856417a5b2c3f45899a24f8b58079784d47b2fa58bc0a83e02",
-  "size": 1195584
+  "sha256": "fa373395926691df1d90f54ebad242a26735d241867b48f3452e3437e740054c",
+  "size": 1198067
 }

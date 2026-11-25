@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.14.5
+### Versao atual: 1.14.6
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,33 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.14.5
+- **Versao:** 1.14.6
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.14.6
+
+- Paineis, titulos, botoes e seletores centralizados no celular, com margens e espacamento mais uniformes.
+- Rotulos e campos ficam juntos ao quebrar linhas; o modo PC continua com sua disposicao original.
+- Vinculos abre com largura correta e mostra Pontos de Vinculo e Aceitacao Global em colunas alinhadas.
+- Corrigidos cards que cresciam a cada recalculo, selecao desencontrada de abas e paineis estreitos no Controle NPC.
+- Pop-ups de inventario e base se ajustam a janela da ficha, e os equipamentos do NPC usam um modal independente.
+- Corrigido o erro `rawget (table expected, got string)` na selecao de NPC, sem alterar permissoes ou dados dos personagens.
+- Controle Banco e Controle NPC recebem o mesmo adaptador de layout da ficha.
+
+### Pacotes desta atualizacao
+
+| Plugin | Versao | Download |
+| --- | --- | --- |
+| Ficha do jogador | 1.14.6 | [SoloRpg.rpk](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk) |
+| Controle NPC | 1.2.2 | [ControleNpc.rpk](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/ControleNpc.rpk) |
+| Controle Banco | 1.3.0 | [ControleBanco.rpk](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/ControleBanco.rpk) |
+
+Jogadores precisam atualizar a ficha. Mestres que usam os controles devem instalar tambem os respectivos pacotes. Depois da instalacao, reinicie o Firecast para limpar modulos antigos em memoria.
+
+Os testes automatizados e as tres compilacoes passaram. As previas sao simulacoes do layout; a validacao em celular real ainda esta pendente.
 
 ## Patch 1.14.5
 
