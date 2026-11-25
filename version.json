@@ -1,15 +1,15 @@
 {
   "moduleId": "SoloLevelingRPG",
-  "version": "1.14.4",
-  "pageUrl": "https://github.com/Nether16/SoloRpg-Releases/releases/tag/v1.14.4",
+  "version": "1.14.5",
+  "pageUrl": "https://github.com/Nether16/SoloRpg-Releases/releases/tag/v1.14.5",
   "downloadUrl": "https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk",
   "patchNotes": [
-    "Cada personagem pode participar de ate 4 bases, contando proprietarios, coproprietarios e slots sem duplicar a mesma base.",
-    "Recusas ao adicionar proprietarios mostram o motivo real; a regra de 50% de semelhanca continua ativa.",
-    "Controle NPC: corrige selecao de skills, equipamentos entre janelas e duplicacao ao salvar itens.",
-    "Controle NPC: preserva habilidades de equipamentos durante recalculos e ignora respostas antigas apos trocar de NPC.",
-    "Controle NPC: atualiza a integracao Groq e impede salvar NPCs carregados incompletamente."
+    "Modo celular automatico na ficha e no SoloBank, com paineis reorganizados e seletores compactos de abas.",
+    "Inventario e Base ganham menus compactos; pop-ups se ajustam a tela com rolagem e controles maiores para toque.",
+    "Consulte passes anteriores e compre em suas lojas com as moedas da temporada, mantendo a exigencia de Premium concluido.",
+    "Habilidades de equipamento preservam selecao, personalizacoes e ativacoes durante recalculos.",
+    "Itens zerados deixam de conceder bonus; escolhas de equipamento ficam isoladas entre fichas e janelas."
   ],
-  "sha256": "84315783a8fe61dddbbc8fac42ec5b297c3b93522b3c247ecc3dd4e204f4878c",
-  "size": 1181358
+  "sha256": "a8d9c2fa0ad1db856417a5b2c3f45899a24f8b58079784d47b2fa58bc0a83e02",
+  "size": 1195584
 }

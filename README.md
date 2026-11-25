@@ -2,7 +2,7 @@
 
 # SoloRPG para Firecast
 
-### Versao atual: 1.14.4
+### Versao atual: 1.14.5
 
 [![Baixar SoloRPG](https://img.shields.io/badge/BAIXAR_SOLORPG-00b8d9?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Nether16/SoloRpg-Releases/main/output/SoloRpg.rpk)
 
@@ -24,11 +24,23 @@ Para atualizar, baixe o arquivo novamente e abra o novo `SoloRpg.rpk`. O Firecas
 
 ## Informacoes do arquivo
 
-- **Versao:** 1.14.4
+- **Versao:** 1.14.5
 - **Arquivo:** `SoloRpg.rpk`
 - **Compatibilidade:** Firecast 8
 
 O arquivo desta pagina e gerado diretamente do projeto oficial do SoloRPG.
+
+## Patch 1.14.5
+
+- Modo celular automatico na ficha inteira e no SoloBank, com paineis reorganizados, controles maiores para toque e seletores compactos de abas.
+- Inventario e Base ganham menus compactos; pop-ups se ajustam a tela com rolagem. O layout de PC permanece disponivel automaticamente.
+- O Passe de Batalha permite selecionar temporadas anteriores e comprar em suas lojas com as moedas daquela temporada. As lojas permanecem disponiveis para personagens que concluiram o Premium, sem reabrir a progressao.
+- Habilidades de equipamentos mantem selecao, imagens personalizadas e ativacoes durante recalculos.
+- Itens com quantidade zero deixam de conceder bonus, e escolhas de equipamento ficam isoladas entre fichas e janelas.
+
+Esta atualizacao publica somente a ficha do jogador. Nao e necessario atualizar o Controle Banco ou o Controle NPC para instalar este pacote.
+
+Os testes automatizados e a compilacao foram executados. A adaptacao visual ainda precisa ser conferida em aparelhos reais.
 
 ## Patch 1.14.4
 
